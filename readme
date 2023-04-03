@@ -20,3 +20,7 @@ connect worker application with two databases
 
 create link postgres db to result app
  docker run -d -p 1001:80 --link postgres:db result
+
+
+
+
