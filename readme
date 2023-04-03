@@ -2,8 +2,8 @@ Project
 -------
 https://github.com/arunawsdevops/Voting-application.git
 create three images for Vote, Result and Worker
-create redis container
- docker run -d --name redis -h redis redis
+Then create redis container
+docker run -d --name redis -h redis redis
                (imagename)     (hostname)  (image)
 
 redis - memory cache msgs
